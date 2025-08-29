@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  simple1:
+    build: .
+    container_name: simple1
+    ports:
+      - "8185:8185"
+    restart: unless-stopped

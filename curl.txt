@@ -1,0 +1,4 @@
+root@cloud-006:/opt/probhub/simple1# curl -X POST http://89.207.255.98:8185/login \
+  -H "Content-Type: application/json" \
+  -d '{"username": "admin", "password": "password123"}'
+{"message":"Успешный вход"}root@cloud-006:/opt/probhub/simple1#
